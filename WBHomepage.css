@@ -1,0 +1,56 @@
+
+  body{
+    background-image: url("http://s3.amazonaws.com/anchor_cms_production/promotions/1/full/brewery-tour.jpg?1320969457");
+    background-repeat:no-repeat;
+    background-position:center;
+    backgound-origin: content-box;
+    background-size: 3000px;
+    margin: 0 auto;
+    padding:0;
+
+  }
+}
+ul{
+  display:inline-block;
+  padding: 0;
+}
+a{
+  text-decoration:none;
+  color:#f74100;
+}
+
+li{
+  font-size:30px;
+  color:#f94f00;
+  display:inline-block;
+  list-style-type:none;
+  margin-left:425px;
+  text-shadow:2px 2px #54350b;
+}
+  div{
+    text-align:center;
+    border: 20px;
+  }
+
+  h1{
+  color:#f94f00;
+  font-family:Papyrus;
+  font-size: 100px;
+  text-shadow:5px 5px #54350b;
+
+}
+h2{
+  font-size:30px;
+  Color:#e5ddb9;
+  font:Cursive;
+  text-align:center;
+
+}
+p{
+  font-family:Cursive;
+  color: black;
+  font-size: 80px;
+  borer:20px solid brown;
+  text-align:center;
+  text-shadow: 2px 2px #54350b;
+}

@@ -1,0 +1,77 @@
+
+body{
+  background-color:orange;
+}
+
+  /* The links to other pages */
+}
+ul{
+  display:inline-block;
+}
+a{
+  text-decoration:none;
+  color:#d5ddb9;
+}
+
+li{
+  font-size:20px;
+  color:#d5ddb9;
+  display:inline-block;
+  list-style-type:none;
+}
+    /* Picture with page description */
+header{
+  height:300px;
+  background-image:url(http://www.perpendicularity.org/sitebuilder/images/beer_glasses-600x309.jpg);
+  background-repeat:no-reapeat;
+  margin-top:10px;
+  text-align:center;
+  font-family:Arial; sans-serif;
+  font-size:80px;
+  color: brown;
+}
+.image{
+  opacity:.4;
+}
+.style{
+  font-family:Arial; sans-serif;
+  font-size:80px;
+  text-align:center;
+  color:brown;
+}
+container{
+  display:inline-block;
+}
+
+div{
+  width:32%;
+  display:inline-block;
+  margin:10px;
+  padding:0;
+}
+h1{
+  text-align:center;
+}
+
+p{
+  margin-left:10px;
+  padding:20px;
+  border:2px solid black;
+  font-size:30px;
+  font-family:Arial;
+}
+
+p::first-letter{
+  font-size:200%;
+}
+
+.column1{
+  margin: 0 auto;
+}
+.column2{
+  float:left;
+}
+
+.column3{
+  float:left;
+}
