@@ -5,6 +5,7 @@ body{
   background-color:#FF9900;
 }
 
+/*nav*/
 ul{
   display:inline-block;
 }
@@ -19,34 +20,57 @@ li{
   display:inline-block;
   list-style-type:none;
 }
+/* About the Brew Crew */
 
+div{
+   width:50%;
+   float:left;
+   margin-left:50px;
+   border:2px solid black;
+ }
+
+img{
+  vertical-align:center;
+  width:50%;
+}
+.TextWrap{
+  float:left;
+  padding:10px;
+}
 h1{
-  font-size:65px;
+  text-align:center;
+  font-size:55px;
   font-family:Papyrus;
 }
 
-p{
-  float:left;
-  font-family:Verdana;
-  font-size:30px;
-  border:2px solid black;
-  width:1000px;
-  margin-left:20px;
-  padding:10px;
 
+p{
+  text-align:left;
+  font-family:Verdana;
+  font-size:29px;
+  margin-left:20px;
+  padding:30px;
 }
+
+/* Right column */
 aside{
-  display:inline-block;
-  width:500px;
-  float:left;
-  padding:50px;
+  float:right;
+  width:35%;
+  margin-left:40px;
+  padding:20px 20px 5px 20px;
+  border:2px solid black;
+  margin-right:50px;
+  }
+aside p{
+  font-size:20px;
 }
 
 h2{
-  font-family:Papyrus;
-  font-size: 65;
+  font-family:'Papyrus';
+  font-size:45px;
+  text-align:center;
 }
 
-img.top1{
-  width:300px;
+.top1, .top2{
+  width:500px;
 }
